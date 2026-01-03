@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>hw-9-4</title>
+</head>
+<body>
+
+  <p class="description">Первый текст</p>
+  <div class="description">Второй текст</div>
+  <span class="description">Третий текст</span>
+
+  <script>
+    const elements = document.querySelectorAll('.description');
+
+    elements.forEach(element => {
+      element.textContent = 'Измененный текст';
+    });
+  </script>
+
+</body>
+</html>

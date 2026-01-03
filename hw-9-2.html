@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>hw-9-2</title>
+</head>
+<body>
+
+  <p id="text">Это абзац текста</p>
+  <button id="colorBtn">Изменить цвет</button>
+
+  <script>
+    const paragraph = document.querySelector('#text');
+    const button = document.querySelector('#colorBtn');
+
+    button.addEventListener('click', () => {
+      paragraph.style.color = 'blue';
+    });
+  </script>
+
+</body>
+</html>

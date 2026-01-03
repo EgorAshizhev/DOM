@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>hw-9-3</title>
+</head>
+<body>
+
+  <h1 id="title">Исходный текст</h1>
+  <button id="textBtn">Изменить текст</button>
+
+  <script>
+    const title = document.querySelector('#title');
+    const button = document.querySelector('#textBtn');
+
+    button.addEventListener('click', () => {
+      title.textContent = 'Привет, мир!';
+    });
+  </script>
+
+</body>
+</html>
